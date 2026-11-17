@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./src/agents/agent.py:EcommerceAgent"
+  },
+  "env": "./.env"
+}

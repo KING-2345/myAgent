@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments，忽略所有环境变量
+.venv
+.env
+
+# 不上传的本人测试文件
+main_agent.py
+fastapi_learn
+src/rag/learn
+
+# pycharm专属配置文件
+.idea
+
+# 剔除langgraph配置
+.langgraph_api
